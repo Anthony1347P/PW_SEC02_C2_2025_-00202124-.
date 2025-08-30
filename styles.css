@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00d0ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #00BFFF;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+
+.footer {
+  background-color: #2196F3;
+  color: white;
+  padding: 15px;
+  clear: both;
+}
+
+#londonTitle, #parisTitle, #tokyoTitle {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+#citySection p {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  
+}
+
+#imageContainer {
+  margin-top: 20px;
+  text-align: center;
+}
